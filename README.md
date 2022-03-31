@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Hi, I'm Fahmi. I am interested in technology specifically in web development (front-end), and am currently passionate about developing multi-platform mobile applications using flutter.
+Hi, I'm Fahmi. I am interested in technology specifically in web development (front-end and back-end), and i'm currently passionate about developing multi-platform mobile apps using flutter.
 
 ### Tools:
 <p>
@@ -55,8 +55,19 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
 </p>
 
 ### Github Stats:
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=superMiii&show_icons=true&theme=dark">
+<p align="center">
+  <img height="180px" src="https://github-readme-stats.vercel.app/api?username=superMiii&show_icons=true&theme=dark">
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=superMiii&show_icons=true&locale=en&layout=compact&theme=dark">
+  <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs?username=superMiii&show_icons=true&locale=en&layout=compact&theme=dark">
 </p>
+
+### Connect with me!
+<a href="https://github.com/superMiii/">
+  <img src="https://img.shields.io/badge/-Github-black?style=flat&logo=github">
+</a>
+<a href="https://www.instagram.com/fahminurfalah_/">
+  <img src="https://img.shields.io/badge/-Instagram-black?style=flat&logo=instagram">
+</a>
+<a href="linkedin.com/in/fahmi-nurfalah">
+  <img src="https://img.shields.io/badge/-LinkedIn-black?style=flat&logo=linkedin&logoColor=0e76a8">
+</a>
