@@ -48,7 +48,7 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
   <img src="https://img.shields.io/badge/-React-black?style=flat&logo=React">
   <img src="https://img.shields.io/badge/-CodeIgniter-black?style=flat&logo=codeigniter">
   <img src="https://img.shields.io/badge/-Express-black?style=flat&logo=Express&logoColor=ccc">
-  <img src="https://img.shields.io/badge/-Flutter-black?style=flat&logo=flutter&logoColor=42A5F5">
+<!--   <img src="https://img.shields.io/badge/-Flutter-black?style=flat&logo=flutter&logoColor=42A5F5"> -->
   <img src="https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql">
   <img src="https://img.shields.io/badge/-MongoDB-black?style=flat&logo=mongodb">
   <img src="https://img.shields.io/badge/-Flask-black?style=flat&logo=flask">
@@ -58,7 +58,7 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
   <img src="https://img.shields.io/badge/-HTML-black?style=flat&logo=HTML5">
   <img src="https://img.shields.io/badge/-CSS-black?style=flat&logo=CSS3&logoColor=1572B6">
   <img src="https://img.shields.io/badge/-JS-black?style=flat&logo=Javascript">
-  <img src="https://img.shields.io/badge/-Dart-black?style=flat&logo=Dart&logoColor=1572B6">
+<!--   <img src="https://img.shields.io/badge/-Dart-black?style=flat&logo=Dart&logoColor=1572B6"> -->
   <img src="https://img.shields.io/badge/-PHP-black?style=flat&logo=PHP&logoColor=474A8A">
   <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=Python&logoColor=FFD43B">
 </p>
