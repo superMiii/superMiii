@@ -31,7 +31,7 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
   <img src="https://img.shields.io/badge/-JS-black?style=flat&logo=Javascript">
   <img src="https://img.shields.io/badge/-Dart-black?style=flat&logo=Dart&logoColor=1572B6">
   <img src="https://img.shields.io/badge/-PHP-black?style=flat&logo=PHP&logoColor=474A8A">
-<!--   <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=Python&logoColor=FFD43B"> -->
+  <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=Python&logoColor=FFD43B">
 </p> 
 
 ### Database:
@@ -51,7 +51,7 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
 <!--   <img src="https://img.shields.io/badge/-Flutter-black?style=flat&logo=flutter&logoColor=42A5F5"> -->
   <img src="https://img.shields.io/badge/-MySQL-black?style=flat&logo=mysql">
   <img src="https://img.shields.io/badge/-MongoDB-black?style=flat&logo=mongodb">
-  <img src="https://img.shields.io/badge/-Flask-black?style=flat&logo=flask">
+<!--   <img src="https://img.shields.io/badge/-Flask-black?style=flat&logo=flask"> -->
   <br>
   <img src="https://img.shields.io/badge/-Bootstrap-black?style=flat&logo=Bootstrap">
   <img src="https://img.shields.io/badge/-NodeJS-black?style=flat&logo=node.js">
