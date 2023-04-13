@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Hi, I'm Fahmi. I am interested in technology specifically in web development (front-end and back-end), and i'm currently passionate about developing multi-platform mobile apps using flutter.
+Hi, I'm Fahmi. I am interested in technology specifically in web development (front-end and back-end), and i'm currently passionate about developing multi-platform mobile apps using flutter/react-native.
 
 <!-- ### Tools:
 <p>
