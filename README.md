@@ -71,7 +71,9 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
 </p>
 
 ## Dev Cards:
-<a href="https://app.daily.dev/fahminurfalah"><img src="https://api.daily.dev/devcards/655bed16f7c44b99ab2cd05041264106.png?r=7iu" width="400" alt="Fahmi Nurfalah's Dev Card"/></a>
+<div style="display: flex; justify-content: center;">
+  <a href="https://app.daily.dev/fahminurfalah"><img src="https://api.daily.dev/devcards/655bed16f7c44b99ab2cd05041264106.png?r=7iu" width="200" alt="Fahmi Nurfalah's Dev Card"/></a>
+</div>
 
 ### Connect with me!
 <a href="https://github.com/superMiii/">
