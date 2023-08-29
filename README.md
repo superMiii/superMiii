@@ -70,6 +70,9 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
   <img height="180px" src="https://github-readme-stats.vercel.app/api/top-langs?username=superMiii&show_icons=true&locale=en&layout=compact&theme=dark">
 </p>
 
+## Dev Cards:
+<a href="https://app.daily.dev/fahminurfalah"><img src="https://api.daily.dev/devcards/655bed16f7c44b99ab2cd05041264106.png?r=7iu" width="400" alt="Fahmi Nurfalah's Dev Card"/></a>
+
 ### Connect with me!
 <a href="https://github.com/superMiii/">
   <img src="https://img.shields.io/badge/-Github-black?style=flat&logo=github">
