@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import {
+  BrowserRouter as Router,
   NavLink,
   Route,
   Routes,
-  HashRouter
 } from "react-router-dom";
 import About from "../../pages/About/About";
 import Portfolio from "../../pages/Portfolio/Portfolio";
@@ -42,7 +42,7 @@ const Navbar = () => {
   };
 
   return (
-    <HashRouter>
+    <Router>
       <div className="z-10 sticky top-0 justify-center hidden md:flex">
         <nav
           className="md:mx-8 mb-3 px-6 py-2 bg-white dark:bg-zinc-900 shadow rounded-full md:w-fit xs:w-full bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200"
@@ -83,7 +83,7 @@ const Navbar = () => {
         <Route path="/works" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </HashRouter>
+    </Router>
   );
 };
 
