@@ -78,10 +78,10 @@ const Navbar = () => {
       </div>
 
       <Routes>
-        <Route exact path="/" element={<About />} />
-        <Route path="/services" element={<Service />} />
-        <Route path="/works" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
+        <Route exact path="#/" element={<About />} />
+        <Route path="#/services" element={<Service />} />
+        <Route path="#/works" element={<Portfolio />} />
+        <Route path="#/about" element={<About />} />
       </Routes>
     </Router>
   );
