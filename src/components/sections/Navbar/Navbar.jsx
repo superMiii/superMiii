@@ -1,16 +1,15 @@
 /* eslint-disable react/prop-types */
 import {
-  BrowserRouter as Router,
   NavLink,
   Route,
   Routes,
+  HashRouter
 } from "react-router-dom";
 import About from "../../pages/About/About";
 import Portfolio from "../../pages/Portfolio/Portfolio";
 import Service from "../../pages/Service/Service";
 import { FaMoon, FaServicestack, FaSun, FaTasks, FaUser } from "react-icons/fa";
 import { useState } from "react";
-import { HashRouter } from "react-router-dom";
 
 const classNameIcons = "w-5 h-5 mb-2";
 const navbarData = [

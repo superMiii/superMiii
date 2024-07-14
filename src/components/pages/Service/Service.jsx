@@ -1,4 +1,4 @@
-import { FaBootstrap, FaCode, FaCss3, FaHtml5, FaLaravel, FaReact } from "react-icons/fa";
+import { FaCode, FaCss3, FaLaravel, FaReact } from "react-icons/fa";
 import ServiceItem from "./ServiceItem";
 
 const serviceData = [
