@@ -10,6 +10,7 @@ import Portfolio from "../../pages/Portfolio/Portfolio";
 import Service from "../../pages/Service/Service";
 import { FaMoon, FaServicestack, FaSun, FaTasks, FaUser } from "react-icons/fa";
 import { useState } from "react";
+import { HashRouter } from "react-router-dom";
 
 const classNameIcons = "w-5 h-5 mb-2";
 const navbarData = [
@@ -42,7 +43,7 @@ const Navbar = () => {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <div className="z-10 sticky top-0 justify-center hidden md:flex">
         <nav
           className="md:mx-8 mb-3 px-6 py-2 bg-white dark:bg-zinc-900 shadow rounded-full md:w-fit xs:w-full bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200"
@@ -83,7 +84,7 @@ const Navbar = () => {
         <Route path="/works" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 };
 
