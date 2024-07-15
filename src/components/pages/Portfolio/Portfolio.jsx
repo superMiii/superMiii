@@ -1,6 +1,6 @@
-import image1 from "../../../images/portfolio/project-01.jpg";
-import image2 from "../../../images/portfolio/project-02.jpg";
-import image3 from "../../../images/portfolio/project-03.jpg";
+import dg from "../../../images/portfolio/logo.png";
+import budgeting from "../../../images/portfolio/budgeting.png";
+import digico from "../../../images/portfolio/digico.png";
 import hris from "../../../images/portfolio/hris.png";
 import sme from "../../../images/portfolio/project_sme.png";
 import tokobajusri from "../../../images/portfolio/tokobajusri.jpeg";
@@ -12,7 +12,7 @@ import PortfolioItem from "./PortfolioItem";
 const portfolioData = [
   {
     id: 1,
-    image: image1,
+    image: dg,
     title: "Distributor (ERP)",
     link: "https://apps.dialoguegroup.net/sim/",
     description:
@@ -20,7 +20,7 @@ const portfolioData = [
   },
   {
     id: 2,
-    image: image2,
+    image: dg,
     title: "Production Web Apps",
     link: "https://apps.dialoguegroup.net/dg/",
     description:
@@ -36,7 +36,7 @@ const portfolioData = [
   },
   {
     id: 4,
-    image: image3,
+    image: budgeting,
     title: "Budgeting Support",
     link: "https://apps.dialoguegroup.net/budgeting/",
     description:
@@ -44,7 +44,7 @@ const portfolioData = [
   },
   {
     id: 5,
-    image: image3,
+    image: digico,
     title: "Digico",
     link: "https://apps.dialoguegroup.net/digico/",
     description:
