@@ -1,70 +1,62 @@
+import { FaCode, FaCss3, FaCss3Alt, FaGit, FaGitAlt, FaGithub, FaGitlab, FaHtml5, FaJs, FaLaravel, FaPhp, FaPython, FaReact } from "react-icons/fa";
 import SkillItem from "./SkillItem";
+
+const styleIcon = `h-10 w-10`;
 
 const skillData = [
   {
     id: 1,
-    title: "Html, Css",
-    percentage: "90%",
+    icon: <FaCss3Alt className={styleIcon} />,
   },
   {
     id: 2,
-    title: "Javascript",
-    percentage: "80%",
+    icon: <FaHtml5 className={styleIcon} />,
   },
   {
     id: 3,
-    title: "PHP",
-    percentage: "80%",
+    icon: <FaJs className={styleIcon} />,
   },
   {
     id: 4,
-    title: "TailwindCSS, Bootstrap",
-    percentage: "85%",
+    icon: <FaPhp className={styleIcon} />,
   },
   {
     id: 5,
-    title: "ReactJS",
-    percentage: "75%",
+    icon: <FaPython className={styleIcon} />,
   },
   {
     id: 6,
-    title: "ExpressJS",
-    percentage: "60%",
+    icon: <FaLaravel className={styleIcon} />,
   },
   {
     id: 7,
-    title: "Laravel",
-    percentage: "75%",
+    icon: <FaReact className={styleIcon} />,
   },
   {
     id: 8,
-    title: "CodeIgniter",
-    percentage: "75%",
-  },
-  {
-    id: 9,
-    title: "Postgresql, MySQL",
-    percentage: "75%",
-  },
-  {
-    id: 10,
-    title: "Git",
-    percentage: "80%",
+    icon: <FaGitAlt className={styleIcon} />,
   },
 ];
 
 const Skills = () => {
   return (
-    <div className="py-4">
-      <div className="flex flex-wrap p-8 md:mx-4 bg-white dark:bg-zinc-900 rounded-md shadow-md" data-aos="fade-up">
+    <div className="py-4 w-full">
+      <div
+        className="grid flex-wrap p-8 md:mx-4 bg-white dark:bg-zinc-900 rounded-md shadow-md"
+        data-aos="fade-up"
+      >
         <div className="w-full">
           <div className="md:mx-4">
-            <h3 className="text-2xl text-gray-800 dark:text-gray-50 font-bold mb-4">Skills</h3>
+            <h3 className="text-2xl text-gray-800 dark:text-gray-50 font-bold mb-4">
+              Skills
+            </h3>
           </div>
         </div>
-        {skillData.map((skill, id) => (
-          <SkillItem skill={skill} key={id} />
-        ))}
+        <div className="grid lg:grid-cols-8 grid-cols-2 lg:gap-4 gap-2 justify-items-center">
+          {skillData.map((skill, id) => (
+            <SkillItem skill={skill} key={id} />
+          ))}
+        </div>
       </div>
     </div>
   );
