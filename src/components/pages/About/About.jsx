@@ -9,6 +9,8 @@ import {
 } from "react-icons/fa";
 import profile from "../../../images/profile.jpeg";
 
+const baseURL = `https://supermiii.github.io/superMiii/`;
+
 const socials = [
   {
     id: 1,
@@ -54,7 +56,7 @@ const About = () => {
                 </a>
               </p>
               <a
-                href="/public/resume_fahmi_new.pdf"
+                href={`${baseURL}resume_fahmi_new.pdf`}
                 className="inline-block mb-3 rounded-full bg-rose-800 text-center border-0 py-1 px-3 text-white leading-7 tracking-wide hover:bg-rose-950"
                 download="Resume Fahmi" target="_blank"
               >
