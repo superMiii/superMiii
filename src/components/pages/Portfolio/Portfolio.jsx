@@ -96,15 +96,15 @@ const portfolioData = [
     id: 11,
     image: konagelato,
     title: "Chatbot Inventory Stock Kona Coffee & Gelato",
-    link: "#",
+    link: "https://web.telegram.org/k/#@chatbot_kona_cafe_bot",
     description:
       "chatbot to manage a inventory stock Kona Coffee & Gelato based with telegram integrated with google spreadsheet",
   },
   {
     id: 12,
     image: shisan,
-    title: "Chatbot Inventory Stock Kona Coffee & Gelato",
-    link: "#",
+    title: "ERP CRM Shisan Manufacture Otomasi Industri",
+    link: "https://erp.shisan.co.id",
     description:
       "ERP Customer Relationship Management (CRM) to record every data flow from supplier to customer",
   },
