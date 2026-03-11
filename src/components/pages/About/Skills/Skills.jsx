@@ -1,4 +1,18 @@
-import { FaCode, FaCss3, FaCss3Alt, FaGit, FaGitAlt, FaGithub, FaGitlab, FaHtml5, FaJs, FaLaravel, FaPhp, FaPython, FaReact } from "react-icons/fa";
+import {
+  FaCode,
+  FaCss3,
+  FaCss3Alt,
+  FaGit,
+  FaGitAlt,
+  FaGithub,
+  FaGitlab,
+  FaHtml5,
+  FaJs,
+  FaLaravel,
+  FaPhp,
+  FaPython,
+  FaReact,
+} from "react-icons/fa";
 import SkillItem from "./SkillItem";
 
 const styleIcon = `h-10 w-10`;
@@ -7,34 +21,42 @@ const skillData = [
   {
     id: 1,
     icon: <FaCss3Alt className={styleIcon} />,
+    title: "CSS",
   },
   {
     id: 2,
     icon: <FaHtml5 className={styleIcon} />,
+    title: "HTML",
   },
   {
     id: 3,
     icon: <FaJs className={styleIcon} />,
+    title: "JS",
   },
   {
     id: 4,
     icon: <FaPhp className={styleIcon} />,
+    title: "PHP",
   },
   {
     id: 5,
     icon: <FaPython className={styleIcon} />,
+    title: "Python",
   },
   {
     id: 6,
     icon: <FaLaravel className={styleIcon} />,
+    title: "Laravel",
   },
   {
     id: 7,
     icon: <FaReact className={styleIcon} />,
+    title: "React",
   },
   {
     id: 8,
     icon: <FaGitAlt className={styleIcon} />,
+    title: "Git",
   },
 ];
 

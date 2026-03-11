@@ -7,6 +7,8 @@ import tokobajusri from "../../../images/portfolio/tokobajusri.jpeg";
 import saktigo from "../../../images/portfolio/saktigo.png";
 import perpussmanli from "../../../images/portfolio/perpussman5.png";
 import puncakbuluh from "../../../images/portfolio/puncakbuluh.jpeg";
+import konagelato from "../../../images/portfolio/konagelato.jpeg";
+import shisan from "../../../images/portfolio/shisan.jpeg";
 import PortfolioItem from "./PortfolioItem";
 
 const portfolioData = [
@@ -72,7 +74,7 @@ const portfolioData = [
     title: "SaktiGo",
     link: "#",
     description:
-      "application to search for candidates and search for jobs like jobstreet",
+      "application to search for candidates and search for jobs like jobstreet lite version",
   },
   {
     id: 9,
@@ -80,7 +82,7 @@ const portfolioData = [
     title: "Repository Perpustakaan SMAN 5 Sukabumi",
     link: "#",
     description:
-      "application that can store student written work",
+      "application that can store student written work and book rent management",
   },
   {
     id: 10,
@@ -89,6 +91,22 @@ const portfolioData = [
     link: "#",
     description:
       "application regarding information on tourist attractions in Puncak Buluh complete with a list of accommodation and facilities available there",
+  },
+  {
+    id: 11,
+    image: konagelato,
+    title: "Chatbot Inventory Stock Kona Coffee & Gelato",
+    link: "#",
+    description:
+      "chatbot to manage a inventory stock Kona Coffee & Gelato based with telegram integrated with google spreadsheet",
+  },
+  {
+    id: 12,
+    image: shisan,
+    title: "Chatbot Inventory Stock Kona Coffee & Gelato",
+    link: "#",
+    description:
+      "ERP Customer Relationship Management (CRM) to record every data flow from supplier to customer",
   },
 ];
 

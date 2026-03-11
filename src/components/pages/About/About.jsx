@@ -7,7 +7,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-import profile from "../../../images/profile.jpeg";
+import profile from "../../../images/pasfoto.jpeg";
 
 const baseURL = `https://supermiii.github.io/superMiii/`;
 
@@ -16,49 +16,67 @@ const socials = [
     id: 1,
     icon: <FaFacebookF />,
     link: "https://facebook.com/fahminurfalah",
+    title: "Facebook",
   },
   {
     id: 2,
     icon: <FaGithub />,
     link: "https://github.com/superMiii",
+    title: "Github",
   },
   {
     id: 3,
     icon: <FaGitlab />,
     link: "https://gitlab.com/fahmin09",
+    title: "Gitlab",
   },
   {
     id: 4,
     icon: <FaLinkedinIn />,
     link: "https://linkedin.com/in/fahmi-nurfalah",
+    title: "LinkedIn",
   },
   {
     id: 5,
     icon: <FaInstagram />,
     link: "https://instagram.com/fahminurfalah_",
+    title: "Instagram",
   },
 ];
 const About = () => {
+  const startYear = 2022;
+  const currentYear = new Date().getFullYear();
+  const totalYears = currentYear - startYear;
   return (
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
-        <div className="p-8 my-4 md:mx-4 bg-white dark:bg-zinc-900 rounded-md shadow-md" data-aos="fade-up">
+        <div
+          className="p-8 my-4 md:mx-4 bg-white dark:bg-zinc-900 rounded-md shadow-md"
+          data-aos="fade-up"
+        >
           <div className="md:mx-4">
             <div className="w-24 h-24 rounded-md overflow-hidden mx-auto mb-5">
               <img src={profile} alt="fahminurfalah" className="w-full" />
             </div>
             <div className="text-center">
-              <h1 className="text-xl text-gray-800 dark:text-gray-50 font-bold mb-1">Fahmi Nurfalah</h1>
+              <h1 className="text-xl text-gray-800 dark:text-gray-50 font-bold mb-1">
+                Fahmi Nurfalah
+              </h1>
               <p className="text-sm text-gray-400 dark:text-gray-50 mb-3">
                 Fullstack Web Developer at
-                <a href="https://dialoguegroup.net" target="_blank" className="text-rose-800 pl-1">
+                <a
+                  href="https://dialoguegroup.net"
+                  target="_blank"
+                  className="text-rose-800 pl-1"
+                >
                   Dialogue Group
                 </a>
               </p>
               <a
                 href={`${baseURL}resume_fahmi_new.pdf`}
                 className="inline-block mb-3 rounded-full bg-rose-800 text-center border-0 py-1 px-3 text-white leading-7 tracking-wide hover:bg-rose-950"
-                download="Resume Fahmi" target="_blank"
+                download="Resume Fahmi"
+                target="_blank"
               >
                 Download Resume
               </a>
@@ -73,8 +91,9 @@ const About = () => {
                 About Me
               </h3>
               <p className="text-gray-400 dark:text-gray-50 text font-light leading-relaxed">
-                A Man who love tech and still learning on programming web dev with
-                almost 2 years of experience in real project using modern stack.
+                A Man who love tech and still learning on programming web dev
+                with almost -+{totalYears} years of experience in real project
+                using modern stack.
               </p>
             </div>
           </div>
@@ -88,12 +107,13 @@ const About = () => {
 export default About;
 
 const SocialIcon = (props) => {
-  const { icon, link } = props.social;
+  const { icon, link, title } = props.social;
   return (
     <li className="m-2">
       <a
         href={link}
         target="_blank"
+        title={title}
         className="w-8 h-8 bg-rose-100 rounded text-rose-950 flex items-center justify-center hover:text-white hover:bg-rose-800"
       >
         {icon}
