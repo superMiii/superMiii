@@ -44,6 +44,7 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
 
 ### Tech Stack:
 <p>
+  <img src="https://img.shields.io/badge/-Frappe-black?style=flat&logo=Frappe&logoColor=FFFFFF">
   <img src="https://img.shields.io/badge/-Laravel-black?style=flat&logo=laravel">
   <img src="https://img.shields.io/badge/-React-black?style=flat&logo=React">
   <img src="https://img.shields.io/badge/-CodeIgniter-black?style=flat&logo=codeigniter">
@@ -64,7 +65,6 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
 <!--   <img src="https://img.shields.io/badge/-Dart-black?style=flat&logo=Dart&logoColor=1572B6"> -->
   <img src="https://img.shields.io/badge/-PHP-black?style=flat&logo=PHP&logoColor=474A8A">
   <img src="https://img.shields.io/badge/-Python-black?style=flat&logo=Python&logoColor=FFD43B">
-  <img src="https://img.shields.io/badge/-Frappe-black?style=flat&logo=Frappe&logoColor=FFFFFF">
 </p>
 
 ### Github Stats:
