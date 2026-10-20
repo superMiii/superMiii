@@ -56,6 +56,7 @@ Hi, I'm Fahmi. I am interested in technology specifically in web development (fr
 <!--   <img src="https://img.shields.io/badge/-Flask-black?style=flat&logo=flask"> -->
   <br>
   <img src="https://img.shields.io/badge/-Bootstrap-black?style=flat&logo=Bootstrap">
+  <img src="https://img.shields.io/badge/-Tailwindcss-black?style=flat&logo=Tailwindcss">
   <img src="https://img.shields.io/badge/-NodeJS-black?style=flat&logo=node.js">
   <img src="https://img.shields.io/badge/-HTML-black?style=flat&logo=HTML5">
   <img src="https://img.shields.io/badge/-CSS-black?style=flat&logo=CSS3&logoColor=1572B6">
